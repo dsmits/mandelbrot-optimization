@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mandelbrot-exercise"
+version = "0.1.0"
+description = "Djuras solution to mandelbrot exercise"
+authors = ["Djura Smits <djura.smits@gmail.com>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "3.8"
+memory-profiler = "^0.60.0"
+dask = "^2021.12.0"
+matplotlib = "^3.5.1"
+numba = "^0.54.1"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
